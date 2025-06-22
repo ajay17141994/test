@@ -11,33 +11,36 @@
 - 📱 Fully Responsive (Mobile → Desktop)
 
 ---
+## RECORDING
+https://github.com/ajay17141994/test/blob/main/Screen%20Recording%202025-06-22%20at%2022.55.23.mov
 
-## 📁 Project Structure
+<details> <summary><strong>📁 Project Structure</strong></summary>
 
-loch-landing-react/
+test/
 ├── public/
 ├── src/
-│ ├── assets/ # Static files/images
-│ ├── components/ # All isolated UI components
-│ │ ├── Logo.tsx
-│ │ ├── NotificationSection.tsx
-│ │ ├── NotificationCarousel.tsx
-│ │ ├── SignupForm.tsx
-│ │ ├── TestimonialsSection.tsx
-│ │ ├── WatchWhalesSection.tsx
-│ │ ├── WhaleInterface.tsx
-│ ├── styles/ # Custom CSS files
-│ │ ├── TestimonialsSection.css
-│ │ ├── SignupForm.css
-│ │ ├── WatchWhalesSection.css
-│ ├── pages/
-│ │ └── LochLanding.tsx # Main landing page layout
-│ └── App.tsx
+│   ├── assets/                # Static files/images
+│   ├── components/            # All isolated UI components
+│   │   ├── Logo.tsx
+│   │   ├── NotificationSection.tsx
+│   │   ├── NotificationCarousel.tsx
+│   │   ├── SignupForm.tsx
+│   │   ├── TestimonialsSection.tsx
+│   │   ├── WatchWhalesSection.tsx
+│   │   ├── WhaleInterface.tsx
+│   ├── styles/                # Custom CSS files
+│   │   ├── TestimonialsSection.css
+│   │   ├── SignupForm.css
+│   │   ├── WatchWhalesSection.css
+│   ├── pages/
+│   │   └── LochLanding.tsx    # Main landing page layout
+│   └── App.tsx
 ├── tailwind.config.js
 ├── tsconfig.json
 ├── postcss.config.js
 ├── README.md
 └── package.json
+</details>
 
 
 ---
@@ -59,8 +62,7 @@ loch-landing-react/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/loch-landing-react.git
-cd loch-landing-react
+git clone https://github.com/ajay17141994/test.git
 
 npm install
 # or
