@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✨ Features
 
-## Available Scripts
+- 🔔 **Notification Section** – visually rich, styled with bell icons and email inputs
+- 📊 **Whale Interface** – mimics live whale tracking with visual mock
+- 👁️ **Watch Whales Section** – promotional text with icon and responsive grid
+- 💬 **Testimonials Section** – draggable, circular/infinite carousel
+- 📧 **Signup Form** – with real-time email validation and redirection
+- 🧑‍💻 Built using **React + TypeScript** with modular custom components
+- 📱 Fully Responsive (Mobile → Desktop)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+loch-landing-react/
+├── public/
+├── src/
+│ ├── assets/ # Static files/images
+│ ├── components/ # All isolated UI components
+│ │ ├── Logo.tsx
+│ │ ├── NotificationSection.tsx
+│ │ ├── NotificationCarousel.tsx
+│ │ ├── SignupForm.tsx
+│ │ ├── TestimonialsSection.tsx
+│ │ ├── WatchWhalesSection.tsx
+│ │ ├── WhaleInterface.tsx
+│ ├── styles/ # Custom CSS files
+│ │ ├── TestimonialsSection.css
+│ │ ├── SignupForm.css
+│ │ ├── WatchWhalesSection.css
+│ ├── pages/
+│ │ └── LochLanding.tsx # Main landing page layout
+│ └── App.tsx
+├── tailwind.config.js
+├── tsconfig.json
+├── postcss.config.js
+├── README.md
+└── package.json
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Tech Stack
 
-### `npm run build`
+| Tech            | Description                             |
+|------------------|-----------------------------------------|
+| **React**        | Component-based UI framework            |
+| **TypeScript**   | Strongly typed JavaScript               |
+| **Tailwind CSS** | Utility-first CSS framework             |
+| **Lucide Icons** | Open-source icon library (e.g. `<Eye />`) |
+| **Vite / CRA**   | Fast development tooling (based on setup) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the Repository
 
-### `npm run eject`
+```bash
+git clone https://github.com/your-username/loch-landing-react.git
+cd loch-landing-react
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm install
+# or
+yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm run dev
+# or
+yarn dev
