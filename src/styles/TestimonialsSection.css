@@ -19,8 +19,16 @@
   .testimonials-slider-container {
     position: relative;
     padding: 0 1rem 1rem;
-    right: -48px
+    right: 0; 
   }
+  
+  @media (min-width: 1024px) {
+    .testimonials-slider-container {
+      padding: 0 2rem 2rem;
+      right: -48px; 
+    }
+  }
+  
   
   .testimonials-slider {
     display: flex;

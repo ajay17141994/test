@@ -77,8 +77,23 @@
   }
   
   .three-cols {
-    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 1rem;
   }
+  
+  @media (min-width: 768px) {
+    .three-cols {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .three-cols {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  }
+  
   
   .two-cols {
     grid-template-columns: repeat(2, 1fr);
