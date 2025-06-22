@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: system-ui;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .app {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .right-section {
+    flex: 1;
+    background: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .notification-section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 300px;
+  }
+  
+  .email-form input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+  }
+  
+  .email-form input:focus {
+    outline: 2px solid #000;
+  }
+  
+  .email-form .error {
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  @media (max-width: 768px) {
+    .app {
+      flex-direction: column;
+    }
+  
+    .notification-section {
+      flex-direction: column;
+    }
+  }
+  

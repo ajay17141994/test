@@ -1,0 +1,154 @@
+.carousel-container {
+    width: 100%;
+    padding: 2rem 0;
+    overflow: hidden;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 1rem;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .carousel-card {
+    background: white;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 16px;
+    width: 200px;
+    flex-shrink: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    color: #4b5563; 
+  }
+  
+  .text-action-button {
+    padding: 0.25rem 0.75rem;
+    background-color: #f3f4f6;
+    color: #4b5563;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card-message {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin: 5px;
+  }
+  
+  .card-email {
+    font-size: 0.875rem;
+    color: #2563eb;
+    margin: 5px;
+  }
+  
+  .card-amount {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 5px;
+  }
+  
+  .card-duration {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 5px;
+  }
+  
+  .card-action-text {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin: 5px;
+  }
+  
+  .bar-icon {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+  }
+  
+  .bar {
+    width: 4px;
+    background-color: #3b82f6;
+    border-radius: 2px;
+  }
+  
+  .h2 {
+    height: 8px;
+  }
+  
+  .h3 {
+    height: 12px;
+  }
+  
+  .h4 {
+    height: 16px;
+  }
+  
+  .circle-action {
+    width: 15px;
+    height: 15px;
+    background-color: #3b82f6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .check-icon {
+    width: 12px;
+    height: 12px;
+    color: white;
+  }
+  
+  .rotate-icon-outer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #4b5563;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rotate-icon-inner {
+    width: 4px;
+    height: 4px;
+    border-top: 2px solid #4b5563;
+    border-right: 2px solid #4b5563;
+    transform: rotate(45deg);
+  }
+  
